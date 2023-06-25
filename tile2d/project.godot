@@ -8,15 +8,14 @@
 
 config_version=4
 
-_global_script_classes=[  ]
-_global_script_class_icons={
-}
-
 [application]
 
-config/name="role3d"
-run/main_scene="res://Spatial.tscn"
+config/name="Tile2D"
 config/icon="res://icon.png"
+
+[physics]
+
+common/enable_pause_aware_picking=true
 
 [rendering]
 
